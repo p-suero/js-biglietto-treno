@@ -2,13 +2,32 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Biglietto treno</title>
+        <title>Calcolatore</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="ticket">
-            <h1>Il prezzo del tuo è biglietto</h1>
-            <p id="final-price"></p>
+        <div id="card-container">
+            <!-- card con indicazione dei km da percorrere -->
+            <div class="card">
+                <h1>
+                    Km da percorrere
+                </h1>
+                <p id="km"></p>
+            </div>
+            <!-- card con indicazione dell'eta -->
+            <div class="card">
+                <h1>
+                    Età inserita
+                </h1>
+                <p id="age"></p>
+            </div>
+            <!-- card con il risultato del prezzo finale -->
+            <div class="card">
+                <h1>
+                    Prezzo finale del ticket
+                </h1>
+                <p id="price"></p>
+            </div>
         </div>
         <script src="main.js" charset="utf-8"></script>
     </body>

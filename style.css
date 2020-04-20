@@ -4,10 +4,36 @@
     box-sizing: border-box;
 }
 
-#ticket {
+ /** display none per rendere il contenuto invisibile durante la comparsa del prompt **/
+#card-container {
     display: none;
 }
 
-#ticket.visible {
-    display: block;
+#card-container.visible {
+    display: flex;
+    width: 700px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.card {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.card h1 {
+    color: red;
+    margin-bottom: 25px;
+}
+
+.card p {
+    font-size: 15px;
+    color: green;
+    background-color: cyan;
+    padding: 20px 0;
 }
