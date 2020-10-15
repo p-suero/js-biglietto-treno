@@ -1,1 +1,1 @@
-#16 Primi utilizzi della if in JS
+#16 Esercitazione sull'utilizzo delle condizioni in JS
